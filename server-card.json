@@ -1,0 +1,25 @@
+{
+  "error": "Error: server card fetch failed 522",
+  "fallback": {
+    "slug": "playwritermcp",
+    "name": "Playwriter Session Cloud",
+    "website": "https://playwritermcp.clauxel.com/",
+    "endpoint": "https://playwritermcp.clauxel.com/mcp",
+    "serverCard": "https://playwritermcp.clauxel.com/.well-known/mcp/server-card.json",
+    "registryName": "com.clauxel.playwritermcp/playwritermcp-mcp",
+    "tools": [
+      "session_open",
+      "run_stateful_snippet",
+      "read_page_state",
+      "export_session_log"
+    ],
+    "docsRepo": "playwriter-session-cloud-mcp",
+    "docs": "https://github.com/clauxel/playwriter-session-cloud-mcp",
+    "packageName": "@clauxel/playwritermcp-mcp",
+    "directoryName": "playwritermcp-mcp",
+    "category": "Browser Automation",
+    "tagline": "Hosted MCP for AI agent browser MCP session.",
+    "description": "Playwriter Session Cloud is a paid remote MCP endpoint for AI agent browser MCP session. It exposes structured JSON tools, a public server card, token-based access, usage receipts, and audit-ready workflow evidence for AI agents and coding teams.",
+    "icon": "https://playwritermcp.clauxel.com/favicon.svg"
+  }
+}
