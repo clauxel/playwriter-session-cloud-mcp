@@ -1,0 +1,15 @@
+# Playwriter Session Cloud
+
+Playwriter Session Cloud is a hosted remote MCP for AI agent browser MCP session.
+
+Website: https://playwritermcp.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: AI agent browser MCP session
+Type: MCP
+Default plan: team
+MCP endpoint: https://playwritermcp.clauxel.com/mcp
+Server card: https://playwritermcp.clauxel.com/server-card.json
+Registry name: com.clauxel.playwritermcp/playwritermcp-mcp
+Tools: session_open, run_stateful_snippet, read_page_state, export_session_log
+
+Public boundary: docs-only repository; no production source code or secrets.
