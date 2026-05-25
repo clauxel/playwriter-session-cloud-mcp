@@ -1,13 +1,11 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.clauxel.playwritermcp/playwritermcp-mcp",
-  "description": "Playwriter Session Cloud is a hosted remote MCP for AI agent browser MCP session.",
+  "title": "Playwriter Session Cloud",
+  "description": "Playwriter Session Cloud is a paid remote MCP endpoint for AI agent browser MCP session. It exposes structured JSON tools, a public server card, token-based access, usage receipts, and audit-ready workflow evidence for AI agents and coding teams.",
   "version": "1.0.0",
-  "website_url": "https://playwritermcp.clauxel.com/",
-  "repository": {
-    "url": "https://github.com/clauxel/playwriter-session-cloud-mcp",
-    "source": "github"
-  },
+  "websiteUrl": "https://playwritermcp.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/playwriter-session-cloud-mcp",
+  "serverCardUrl": "https://playwritermcp.clauxel.com/.well-known/mcp/server-card.json",
   "remotes": [
     {
       "type": "streamable-http",
@@ -15,17 +13,9 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer token from the product website.",
-          "is_required": true,
-          "is_secret": true
+          "description": "Bearer token from the product website."
         }
       ]
     }
-  ],
-  "_meta": {
-    "io.modelcontextprotocol.registry/publisher-provided": {
-      "title": "Playwriter Session Cloud MCP",
-      "server_card_url": "https://playwritermcp.clauxel.com/server-card.json"
-    }
-  }
+  ]
 }
